@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Start Header  */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-family: century;
+    font-weight: bold;
+
+
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navbar ul li {
+    padding: 5px;
+    margin: 12px;
+
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: black;
+
+}
+/* End Header  */
+
+
+
+/* Start Home  */
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    /* align-items: center; */
+    /* margin:auto; */
+
+}
+
+#home .img img {
+    width: 100%;
+    height: 600px;
+}
+
+#home .qoral {
+
+    position: absolute;
+    top: 38%;
+    width: 20%;
+    left: 28%;
+    flex-direction: column;
+    line-height: 50px;
+    color: white;
+
+
+}
+
+#home .qoral {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#home .btn {
+    margin-left: 52px;
+    padding: 6px;
+    background-color: red;
+    border: none;
+
+    width: 50%;
+    text-align: center;
+    border-radius: 22px;
+    outline: none;
+
+
+}
+
+#home .btn:hover {
+    background-color: blue;
+    color: black;
+}
+
+
+/* End Home  */
+
+/* Start Service  */
+
+
+.best {
+    text-align: center;
+    border-bottom: 5px solid rgb(110, 155, 42);
+    margin: auto;
+    width: 110px;
+    padding: 4px;
+}
+
+.products {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin:auto;
+    
+
+}
+
+
+
+.oneproduct {
+    width: 260px;
+    margin: 52px;
+    height: 330px;
+    background-color: red;
+    border-radius: 23px;
+}
+
+.oneproduct .info {
+    text-align: center;
+    line-height: 32px;
+    color: white;
+}
+
+.oneproduct .info p {
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.oneproduct .info .btn-buy {
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    margin: 3px;
+
+}
+
+.oneproduct .info .btn-buy:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.oneproduct img {
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 22px;
+    height: 220px;
+}
+
+/* End Service  */
+
+
+/* about */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    position: relative;
+}
+
+#about .img img {
+    width: 50%;
+    padding: 32px;
+
+}
+
+#about .qoral {
+
+    position: absolute;
+    left: 60%;
+    line-height: 40px;
+    width: 30%;
+
+
+}
+
+#about .qoral h1 {
+
+    margin: 10px;
+    text-align: center;
+
+
+
+}
+
+#about .qoral p {
+    font-size: 15px;
+    font-weight: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about .btn {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    left: 20%;
+    margin: 10px;
+
+
+
+
+}
+
+/* Start Footer  */
+
+#contuct {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    margin: 10px;
+    width: 100%;
+    min-height: 600px;
+
+
+}
+
+#contuct .input {
+    background-color: red;
+    display: flex;
+    margin-top: 40px;
+    width: 50%;
+    padding-left: 140px;
+}
+
+#contuct .input input {
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    width: 200%;
+
+    border-radius: 10px;
+
+}
+
+#contuct .btn {
+    display: block;
+    padding: 5px;
+    margin: 40px;
+    border-radius: 10px;
+    width: 60%;
+    color:blue;
+    outline: none;
+    border: none;
+    background-color: yellow;
+
+}
+
+#contuct textarea {
+    width: 190%;
+    outline: none;
+    margin: 14px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    background: url('./footer-bg.png');
+
+}
+
+#footer .footer-qoral {
+    padding: 20px;
+
+}
+
+#footer .footer-qoral h1 {
+    text-align: center;
+    margin: 10px;
+
+}
+
+#footer .footer-qoral p {
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    background-color: red;
+}
